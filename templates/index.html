@@ -41,7 +41,7 @@
       function sendMessage() {
         const message = userInput.value.trim();
         if (!message) return;
-        chatBox.innerHTML += `<div class="message user"><strong>You:</strong> ${message}</div>`;
+        chatBox.innerHTML += `<div class="message user">${message}</div>`;
         userInput.value = "";
 
         fetch("/chat", {

@@ -31,7 +31,7 @@ documents_dir = os.path.join(os.path.dirname(__file__), "documents")
 vector_store_path = os.path.join(os.path.dirname(__file__), "vector_store")
 vector_store, _, _, _, _ = read_and_split_pdfs(documents_dir, vector_store_path)
 model = load_model()
-retrieval_chain = ConversationalRetrievalChain.from_llm(model, retriever=vector_store.as_retriever(), return_source_documents=True, return_generated_question=True)
+retrieval_chain = ConversationalRetrievalChain.from_llm(model, retriever=vector_store.as_retriever(), return_source_documents=True)
 chat_history = chat_history()
 
 def get_limited_chat_history(chat_history, limit=5):
@@ -93,7 +93,7 @@ def chat():
         source_info.append(f"{len(source_info) + 1}. [{source}]({link}), Page Number: {page_str}")
 
         # source_info.append(f"{len(source_info) + 1}. {source}, Page Number: {page_str}")
-    answer_with_sources = f"**Bot:** {answer}\n\n**Sources:**\n" + "\n".join(source_info)
+    answer_with_sources = f"{answer}\n\n**Sources:**\n" + "\n".join(source_info)
     insert_chat(user_input, answer_with_sources)
     return jsonify({'response': answer_with_sources, 'stop': False})    
 
