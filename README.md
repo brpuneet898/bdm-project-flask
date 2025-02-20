@@ -57,6 +57,7 @@ Alshwin is a personalized AI-driven bot designed to assist with queries related 
 
     ```yaml
     GROQ_API_KEY: "your_groq_api_key_here"
+    BASE_URL: "http://localhost:5000"
     ```
 
 6. Place your PDF documents in the `documents` directory. (Already setup, if you want new PDFs, for that place them here.)
