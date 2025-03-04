@@ -11,8 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
   </head>
-  <body>
+  <body>    
     <div class="container">
+      <div class="auth-container">
+        <p>Welcome, {{ user_name }}!</p>
+        <a href="{{ url_for('logout') }}">Logout</a>
+      </div>
 
       <div id="alert-box" class="alert-box">
         <div class="alert-content">
@@ -32,12 +36,6 @@
 
       <h1>Alshwin</h1>
       <div id="chat-box"></div>
-      <!-- <input
-        type="text"
-        id="user-input"
-        placeholder="Type your message here..."
-      />
-      <button id="send-btn">Send</button> -->
       <div class="input-container">
         <input
           type="text"
