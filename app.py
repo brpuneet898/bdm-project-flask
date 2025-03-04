@@ -1,4 +1,7 @@
-from flask import Flask, render_template, request, jsonify, send_from_directory
+from flask import Flask, render_template, request, jsonify, redirect, url_for, session, send_from_directory
+from flask_dance.contrib.google import make_google_blueprint, google
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+
 from database import init_db, insert_chat, chat_history
 from read_documents import read_and_split_pdfs
 import yaml
@@ -10,13 +13,63 @@ from urllib.parse import quote
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
+import requests
+
+os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+
 app = Flask(__name__)
+app.secret_key = "supersecretkey"
 init_db()
+
+login_manager = LoginManager(app)
+login_manager.login_view = "google.login"
 
 with open("config.yaml", "r") as file:
     config = yaml.safe_load(file)
 model = None
 
+google_bp = make_google_blueprint(
+    client_id=config["GOOGLE_CLIENT_ID"],
+    client_secret=config["GOOGLE_CLIENT_SECRET"],
+    redirect_to="google_login"
+)
+app.register_blueprint(google_bp, url_prefix="/login")
+
+class User(UserMixin):
+    def __init__(self, id, name):
+        self.id = id
+        self.name = name
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User(user_id, session.get("user_name"))
+
+@app.route("/google_login")
+def google_login():
+    if not google.authorized:
+        return redirect(url_for("google.login"))
+    resp = google.get("/oauth2/v2/userinfo")
+    assert resp.ok, resp.text
+    user_info = resp.json()
+    user_id = user_info["id"]
+    user_name = user_info["name"]
+    user = User(user_id, user_name)
+    login_user(user)
+    session["user_name"] = user_name
+    return redirect(url_for("index"))
+
+@app.route("/logout")
+def logout():
+    if google.authorized:
+        token = google.token["access_token"]
+        requests.post(
+            'https://accounts.google.com/o/oauth2/revoke',
+            params={'token': token},
+            headers={'content-type': 'application/x-www-form-urlencoded'}
+        )
+    logout_user()
+    session.clear()
+    return redirect(url_for("google.login"))
 
 def load_model():
     global model
@@ -53,10 +106,15 @@ retrieval_chain = ConversationalRetrievalChain.from_llm(
 )
 chat_history = chat_history()
 
+# @app.route("/")
+# def index():
+#     return render_template("index.html")
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    if not current_user.is_authenticated:
+        return redirect(url_for("google.login"))
+    return render_template("index.html", user_name=current_user.name)
 
 @app.route('/documents/<filename>')
 def serve_pdf(filename):
