@@ -7,6 +7,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_groq import ChatGroq
 from langchain.schema import SystemMessage, HumanMessage
 from urllib.parse import quote
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
 
 app = Flask(__name__)
 init_db()
@@ -27,10 +29,14 @@ def load_model():
         )
     return model
 
-
+def load_vector_store(vector_store_path):
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    return FAISS.load_local(vector_store_path, embeddings, allow_dangerous_deserialization=True)
+    
 documents_dir = os.path.join(os.path.dirname(__file__), "documents")
 vector_store_path = os.path.join(os.path.dirname(__file__), "vector_store")
-vector_store, _, _, _, _, _ = read_and_split_pdfs(documents_dir, vector_store_path)
+# vector_store, _, _, _, _, _ = read_and_split_pdfs(documents_dir, vector_store_path)
+vector_store = load_vector_store(vector_store_path)
 model = load_model()
 
 SYSTEM_PROMPT = """
@@ -103,11 +109,11 @@ def chat():
 if __name__ == "__main__":
     documents_dir = os.path.join(os.path.dirname(__file__), "documents")
     vector_store_path = os.path.join(os.path.dirname(__file__), "vector_store")
-    vector_store, total_characters, total_pdfs, total_csvs, split_documents, total_splits = (
-        read_and_split_pdfs(documents_dir, vector_store_path)
-    )
-    print(f"Total number of PDFs present: {total_pdfs}")
-    print(f"Total number of CSVs present: {total_csvs}")
-    print(f"Total number of split documents: {len(split_documents)}")
-    print(f"Total number of split documents stored: {total_splits}")
+    # vector_store, total_characters, total_pdfs, total_csvs, split_documents, total_splits = (
+    #     read_and_split_pdfs(documents_dir, vector_store_path)
+    # )
+    # print(f"Total number of PDFs present: {total_pdfs}")
+    # print(f"Total number of CSVs present: {total_csvs}")
+    # print(f"Total number of split documents: {len(split_documents)}")
+    # print(f"Total number of split documents stored: {total_splits}")
     app.run(debug=False)
