@@ -1,7 +1,6 @@
-from flask import Flask, render_template, request, jsonify, redirect, url_for, session, send_from_directory
+from flask import Flask, render_template, request, jsonify, redirect, url_for, session, send_from_directory, send_file
 from flask_dance.contrib.google import make_google_blueprint, google
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
-
 from database import init_db, insert_chat, chat_history
 from read_documents import read_and_split_pdfs
 import yaml
@@ -12,6 +11,7 @@ from langchain.schema import SystemMessage, HumanMessage
 from urllib.parse import quote
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+import io
 
 import requests
 
@@ -116,10 +116,34 @@ def index():
         return redirect(url_for("google.login"))
     return render_template("index.html", user_name=current_user.name)
 
+# @app.route('/documents/<filename>')
+# def serve_pdf(filename):
+#     documents_dir = 'documents' 
+#     return send_from_directory(documents_dir, filename)
+
+# @app.route('/documents/<filename>')
+# def serve_pdf(filename):
+#     documents_dir = os.path.join(os.path.dirname(__file__), "documents")
+#     file_path = os.path.join(documents_dir, filename)
+#     with open(file_path, 'rb') as file:
+#         return send_file(
+#             io.BytesIO(file.read()),
+#             download_name=filename,
+#             mimetype='application/pdf',
+#             as_attachment=True
+#         )
+
 @app.route('/documents/<filename>')
 def serve_pdf(filename):
-    documents_dir = 'documents' 
-    return send_from_directory(documents_dir, filename)
+    documents_dir = os.path.join(os.path.dirname(__file__), "documents")
+    file_path = os.path.join(documents_dir, filename)
+    with open(file_path, 'rb') as bites:
+        return send_file(
+            io.BytesIO(bites.read()),
+            download_name=filename,
+            mimetype='application/pdf',
+            as_attachment=True
+        )
 
 
 @app.route("/chat", methods=["POST"])
