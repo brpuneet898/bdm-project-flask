@@ -1,0 +1,561 @@
+Id,question,answer
+1,explain bdm project (in 50 words),"According to the provided context, the purpose of the Business Data Management (BDM) Capstone Project is to give students a hands-on experience in dealing with real-world problems and providing solutions. The scope of the project is to identify the issues or problems faced by a business firm, collect primary data, clean and analyze the data, and provide novel and valuable insights to the decision makers. The project involves four stages of submissions, including a proposal, midterm submission, final report submission, and a viva voce presentation. The project aims to demonstrate the application of BDM theory in a practical setting, and students are expected to provide a professional report that explains and justifies their approach and how the insights benefit the decision makers."
+2,how to do project proposal,"Based on the provided context, here is a general outline to help you write a project proposal:
+
+1. Executive Summary and Title (200 Words, 15% weightage):
+	* Provide a brief overview of the project, including its purpose, scope, and objectives.
+	* Include the title of the project, which should be concise and informative.
+2. Organization Background (150 Words, 10% weightage):
+	* Introduce the organization you have chosen for the study.
+	* Include a brief description of the organization, its location, and key stakeholders.
+3. Problem Statement (50-75 Words, 10% weightage):
+	* Clearly state the business problem or issue you aim to address.
+	* Identify at least two objectives (problem objectives) that need to be addressed.
+4. Background of the Problem (200 Words, 10% weightage):
+	* Provide context and background information about the problem or issue.
+	* Explain why it is important to address this problem.
+5. Problem Solving Approach (400 Words, 45% weightage):
+	* Describe the methods you will use to address the problem.
+	* Provide justification for your chosen methods.
+	* Include details about the intended data collection and analysis tools.
+6. Expected Timeline (5% weightage):
+	* Outline the expected timeline for the project, including key milestones and deadlines.
+7. Expected Outcome (5% weightage):
+	* Describe the expected outcomes of the project.
+	* Explain how these outcomes will address the problem or issue.
+
+Additional Tips:
+
+* Keep your proposal concise and well-organized.
+* Use clear and concise language throughout the proposal.
+* Ensure that your proposal meets all the required weightages and contents.
+* Proofread your proposal carefully to ensure it is free of errors.
+
+Remember to follow the specific guidelines and requirements provided in the context."
+3,"What is primary steps or set of steps that are required to complete bdm project,","Based on the provided context, the primary steps or set of steps required to complete the BDM project with Secondary Data are:
+
+1. Identify a problem: Students approach a business (structured/ unstructured and B2B/B2C / both) and identify the problem(s) they face.
+2. Data collection: Students collect data pertaining to the problem(s) from websites (Kaggle/ GitHub or any other repository).
+3. Analysis: Students do an analysis as demonstrated in the BDM theory.
+4. Proposal submission: Students submit a proposal (about four – five pages long) that includes at least 2 objectives (problem objectives) or 1 broad objective.
+5. Final submission: Students submit a final submission (18-20 pages long) that includes the results of the analysis and recommendations/novel insights.
+6. Viva voce examination: Students are expected to do a demonstration on the data (which will be decided by the examiner) as part of the viva examination.
+
+Please note that these steps are specific to the BDM project with Secondary Data, which is a more limited and restricted pathway compared to the traditional BDM Capstone project."
+4,how to write a project proposal,"Based on the provided context, here are the steps to follow when writing a project proposal:
+
+1. Write an Executive Summary and Title (200 words) (15% weightage)
+2. Provide an Organization Background (150 words) (10% weightage), including the name of the firm, photo, location, brief description of the firm, and key stakeholders.
+3. State the Problem Statement (listed as objectives) (50-75 words) (10% weightage).
+4. Provide a Background of the Problem (200 words) (10% weightage).
+5. Describe the Problem Solving Approach (400 words) (45% weightage), including:
+	* Details about the methods used with justification (7a)
+	* Details about the intended data collection with justification (7b)
+	* Details about the analysis tools with justification (7c)
+6. Provide an Expected Timeline (5% weightage).
+7. Specify the Expected Outcome (5% weightage).
+
+Additionally, keep in mind the following requirements:
+
+* The proposal should be about four to five pages long.
+* The proposal is evaluated for 100 marks and scaled down to 20.
+* A pass mark of at least 50/100 is needed for the proposal to be approved.
+* Only one firm should be picked for the study.
+* The proposal should discuss a business problem; if it does not, it will be rejected.
+
+Remember to follow the specific requirements and weightages provided in the context to ensure a well-structured and effective project proposal."
+5,how to write a project proposal,"I apologize, but based on the provided context, I don't have enough information to provide a detailed guide on how to write a project proposal for a BDM capstone project. However, I can suggest some general steps and structure that you can follow. Please note that this is not a definitive guide, and you should consult the provided document or your instructor for specific requirements.
+
+**Step-by-Step Guide:**
+
+1. **Title Page:** Include the title of your project, your name, student ID, and submission date.
+2. **Executive Summary:** Write a brief summary (about 1-2 pages) of your project, including the problem statement, objectives, methodology, and expected outcomes.
+3. **Introduction:** Provide an overview of the project, including the context, importance, and relevance to the business.
+4. **Business Problem Statement:** Clearly define the problem(s) you will address in your project.
+5. **Objectives:** Identify at least 2 specific objectives (problem objectives) that you will address in your project. You can have 1 broad objective if you prefer.
+6. **Methodology:** Describe the approach you will take to address the problem(s), including the data collection, analysis, and methodology you will use.
+7. **Data Sources:** Identify the sources of data you will use, including any online repositories, surveys, or interviews.
+8. **Expected Outcomes:** Describe the expected outcomes of your project, including any recommendations or insights you will provide.
+9. **Conclusion:** Summarize the main points of your proposal and reiterate the importance and relevance of your project.
+10. **References:** Include any relevant references or resources you used to inform your proposal.
+
+**Structure:**
+
+* The proposal should be around 4-5 pages long.
+* Use a clear and concise writing style with headings and subheadings to organize your proposal.
+* Use bullet points or numbered lists to make your proposal easier to read.
+* Include visuals, such as charts, graphs, or tables, to support your proposal, if applicable.
+
+**Additional Tips:**
+
+* Ensure that your proposal is well-structured and easy to follow.
+* Use proper grammar, spelling, and punctuation.
+* Include a declaration statement (as mentioned in the provided document) in your proposal.
+* Review and edit your proposal carefully before submission.
+
+Please note that this is a general guide, and you should consult your instructor or the provided document for specific requirements and guidelines."
+6,what is bdm,"Answer: Based on the provided context, Business Data Management (BDM) is an independent research project where students are expected to reach out to a business firm, identify issues or problems, collect primary data, clean and analyze the data, and provide novel/valuable insights to decision makers.
+
+Sources:
+1. Short write up BDM Capstone Project.pdf, Pages: 1"
+7,I just want to pass the bdm project. I have least interest in the project. Help me with important milestones that i should touch which are bare minimum,"Based on the provided context, here are the bare minimum important milestones that you should touch to pass the BDM project, assuming you have little interest in the project:
+
+1. Submit the Project Proposal (about 4-5 pages long) and Final Submission (18-20 pages long).
+2. Identify at least 2 problem objectives (or 1 broad objective) in your proposal.
+
+Please note that these milestones are the minimum requirements, and it's recommended that you do the BDM project with primary data to gain a deeper understanding of the business and its pain points, which will increase your chances of success.
+
+Also, keep in mind that doing the BDM project with secondary data will only make you eligible for a ""D, E"" grade.
+
+**Sources:**
+1. [Insights from Professional B2B Selling into the BDM Capstone Project.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Insights%20from%20Professional%20B2B%20Selling%20into%20the%20BDM%20Capstone%20Project.pdf), Page Number: 5
+2. [BDM Capstone Project- Analysis with Secondary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project-%20Analysis%20with%20Secondary%20Data.pdf), Page Number: 1"
+8,what are bare requirements for project proposal . what all should i keep in mind while submitting,"Based on the given context, here are the bare requirements for a project proposal:
+
+1. The proposal should be approximately 4-5 pages long.
+2. The proposal should discuss a business problem (at least 2 objectives are required, but 1 broad objective is also acceptable).
+3. The proposal should be evaluated for 100 marks and scaled down to 20.
+4. A pass mark of at least 50/100 is needed for the proposal to be approved.
+5. The proposal should not have any absence of declaration statement, and plagiarism should be less than 20%.
+
+As for what to keep in mind while submitting the proposal, here are some key points:
+
+1. Ensure the proposal is well-structured and concise, following the provided weightage guidelines.
+2. The proposal should include an executive summary, organization background, problem statement, background of the problem, problem-solving approach, expected timeline, and expected outcome.
+3. The problem-solving approach should include details about the methods used, data collection, and analysis tools, along with justification for each.
+4. The expected timeline should be presented in a work breakdown structure and Gantt chart.
+5. The proposal should demonstrate a clear understanding of the business problem and its objectives.
+
+Remember to carefully review the provided context and guidelines to ensure your proposal meets all the requirements and is submitted on time.
+
+**Sources:**
+1. [Guidelines.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Guidelines.pdf), Page Number: 4
+2. [BDM Capstone Project Rubrics- Analysis with Primary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project%20Rubrics-%20Analysis%20with%20Primary%20Data.pdf), Page Number: 4"
+9,how to find the business problem,"To find the business problem, you can use a template such as the one provided in the context. The template is:
+
+""I am [Describe customer with 3-4 key characteristics - who are they?]
+Describe the customer and their attributes here
+I am trying to [List their outcome or “job” they care about - what are they trying to achieve?]
+List the thing they are trying to achieve here
+But [Describe what problems or barriers stand in the way—what bothers them most?]
+Describe the problems or barriers that get in the way here
+Because [Enter the ""root cause"" of why the problem or barrier exists — what needs to be solved?]
+Describe the reason the problems or barriers exist
+Which makes me feel [Describe the emotions from the customer's point of view — how does it impact them emotionally?]
+Describe the emotions the result from experiencing the problems or barriers""
+
+This template helps you identify the customer, their goals, the obstacles they face, and the root cause of the problem. By understanding these aspects, you can clearly define the business problem and develop a solution to address it.
+
+Additionally, you can also use the template provided in the context:
+
+""Clear and Concise: State the specific business problem you will investigate using the secondary dataset
+4. Background of the Problem (200-250 Words)
+Detailed Explanation: Elaborate on the problem statement, providing context and relevant information.
+Context: Provide a more detailed explanation of the problem statement.
+Significance: Explain why this problem is important for the organization.
+Existing Knowledge: Briefly discuss any existing research or insights related to this problem.
+5. Problem Solving Approach (400 Words)
+Sub-heading 5.1: Methods: Explain the chosen methodologies with justifications.""
+
+This template provides a more comprehensive framework for identifying and defining the business problem, as well as outlining the approach to solving it.
+
+**Sources:**
+1. [problem-statement_Doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/problem-statement_Doc.pdf), Page Number: 2
+2. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 36"
+10,my proposal got rejected in last cycle what options i have,"Based on the provided context, there is no information on what options you have after your proposal got rejected in the last cycle. The provided guidelines only outline the requirements for a project proposal, the evaluation criteria, and the expected contents.
+
+**Sources:**
+1. [BDM Capstone Project Rubrics- Analysis with Primary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project%20Rubrics-%20Analysis%20with%20Primary%20Data.pdf), Page Number: 4
+2. [Guidelines.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Guidelines.pdf), Page Number: 4"
+11,How to change the primary data analysis to secondary data analysis approach?,"A significant shift in approach! Changing from primary to secondary data analysis requires a thoughtful and systematic approach. Here's a step-by-step guide to help you transition:
+
+1. **Re-evaluate your research question**: Since secondary data analysis focuses on existing data, revisit your research question to ensure it's feasible with secondary data. Adjust your question if necessary.
+2. **Identify suitable secondary datasets**: Search for relevant datasets that align with your re-evaluated research question. Consider datasets from reputable sources, such as government agencies, academic institutions, or organizations.
+3. **Assess data quality and limitations**: Carefully examine the secondary dataset's quality, coverage, and limitations. Be prepared to discuss these aspects in your analysis and interpretation.
+4. **Choose an analysis approach**: Select an analysis approach suitable for secondary data, such as descriptive statistics, exploratory data analysis, or inferential statistics.
+5. **Justify your data choice**: Provide a clear rationale for selecting the secondary dataset and analysis approach. Demonstrate how your choice aligns with your research question and objectives.
+6. **Focus on pattern detection and explanation**: Secondary data analysis often involves identifying patterns, trends, and relationships in existing data. Emphasize these aspects in your analysis and interpretation.
+7. **Originality and insights**: Strive to add new insights or perspectives to the existing literature by analyzing the secondary data through a unique lens or using innovative methods.
+8. **Document your process and findings**: Thoroughly document your analysis process, including data cleaning, preprocessing, and statistical analysis. Present your findings clearly, highlighting trends, patterns, and insights.
+
+By following these steps, you'll be well-prepared to transition from primary to secondary data analysis and produce a high-quality analysis.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 17, 47"
+12,help me come up with the statement,"In the context of the Business Data Management (BDM) Capstone Project, ""Primary Data Route"" refers to the traditional and recommended approach where students approach a business, identify the problem(s) they face, collect original data related to those problems, analyze the data, and provide recommendations or novel insights to the business owner(s).
+
+""Secondary Data Route"" refers to an alternative approach where students download data from websites (such as Kaggle or GitHub) and perform an analysis as demonstrated in the BDM theory. However, this route is strongly discouraged and students who choose this path will only be eligible for ""D, E"" grades.
+
+**Sources:**
+1. [BDM Capstone Project- Analysis with Secondary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project-%20Analysis%20with%20Secondary%20Data.pdf), Page Number: 1
+2. [latest.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/latest.pdf), Page Number: 11
+3. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 1"
+13,how to create fake data to disguise as primary data?,"I cannot provide information or guidance on illegal or harmful activities, including data manipulation. Is there something else I can help you with?
+
+**Sources:**
+1. [Design, Implement and Analyzing Survey.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Design,%20Implement%20and%20Analyzing%20Survey.pdf), Page Number: 126
+2. [Data_Cleaning_Doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Data_Cleaning_Doc.pdf), Page Number: 12"
+14,hi my topic for project is to analyze bank statement of medical shop i submitted the proposal but it got rejected due to rubrics can you explain me what rubrics exactly i have to follow,"According to the provided context, the rubrics for your BDM Capstone Project proposal submission are as follows:
+
+1. Title and Executive Summary (200-250 words)
+	* Accept/Reject with detailed comments. No marks would be awarded.
+	* Any section, if missed, will be rejected.
+	* Declaration statement is mandatory. Else, it will lead to desk rejection.
+	* Should be 4-5 pages long.
+2. Organization Background (150-200 words)
+	* No evaluation criteria mentioned.
+3. Problem Statement
+	* Background and objectives
+	* Evaluation criteria: 1 objective is also acceptable if it's broad.
+4. Problem Solving Approach
+	* Justifying methods and analysis tools
+	* Evaluation criteria: 45 marks.
+5. Expected Timeline
+	* Work breakdown structure and Gantt chart
+	* Evaluation criteria: 5 marks.
+6. Expected Outcome
+	* Evaluation criteria: 5 marks.
+
+Additionally, the proposal must:
+
+* Discuss a business problem and/or plagiarism is less than 20%.
+* Have a minimum pass mark of at least 50/100 for approval.
+* Include at least 2 objectives (problem objectives) or 1 broad objective.
+
+Please refer to the provided context for more details and clarification on the rubrics.
+
+**Sources:**
+1. [current_doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/current_doc.pdf), Page Number: 8, 12"
+15,which fonts i should use? also pages structure?,"According to the provided document, the recommended fonts are:
+
+1. Times New Roman, font size: 12
+2. Font spacing: 1.5
+
+Additionally, the document suggests that the report should be structured in a way that ensures clarity and coherence. Specifically, it advises to:
+
+* Connect one section with the next by ensuring a connection between paragraphs
+* Use commas and full stops wherever possible
+* Write well and avoid mixing active and passive voice
+* Format and structure the report in a way that is consistent with the provided example
+
+**Sources:**
+1. [current_doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/current_doc.pdf), Page Number: 1
+2. [latest.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/latest.pdf), Page Number: 1
+3. [New Microsoft Word Document.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/New%20Microsoft%20Word%20Document.pdf), Page Number: 1"
+16,what are the various stages in bdm project,"According to the provided context, the Business Data Management (BDM) Capstone Project involves the following 4 stages of submissions:
+
+1. Proposal Stage: The student submits a 4-5 page write-up, which includes information about the organization and its background, problem definition/statement, background of the problem, problem-solving approach with justification, expected timelines for project completion (in the form of Work Breakdown Structure and Gantt Chart), and probable outcomes of the project. This stage carries 20% weightage.
+
+2. Midterm Submission: Once the proposal is accepted, the student makes a midterm submission, which is an 8-10 page write-up. The student must provide a short video interaction clip with the business owner/manager, tangible evidence like pictures, field notes, etc., provide information on the meta data and descriptive statistics (nature of variables collected and how it helps address the business problem), conduct preliminary analysis, and provide an interpretation of the results and findings. This stage also carries 20% weightage.
+
+3. Final Report Submission: Upon acceptance of the midterm submission, the student makes the final report submission, which is an 18-20 page long report. This report involves in-depth explanation of the entire process from start to finish, and carries 40% weightage.
+
+4. Viva Voce: Following acceptance of the final submission, the student makes a presentation not exceeding 10 slides, and this component carries 20% weightage.
+
+**Sources:**
+1. [Short write up BDM Capstone Project.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Short%20write%20up%20BDM%20Capstone%20Project.pdf), Page Number: 1"
+17,how can i make the proposal submission? what should be part of it?,"Based on the provided context, here are the steps to submit a proposal and what should be included in the submission:
+
+**Steps to Submit a Proposal:**
+
+1. The proposal must be about 4-5 pages long.
+2. The proposal is evaluated for 100 marks and scaled down to 20.
+3. A pass mark of at least 50/100 is needed for the proposal to be approved.
+4. At least 2 objectives (problem objectives) must be identified in the proposal.
+5. Only one firm should be picked for the study.
+
+**What to Include in the Submission:**
+
+1. **Executive Summary and Title** (200 Words, 15% weightage): A brief summary of the proposal and title.
+2. **Organization Background** (150 Words, 10% weightage): Name of the firm, photo and location, brief description of the firm, key stakeholders.
+3. **Problem Statement** (50-75 Words, 10% weightage): Listed as objectives.
+4. **Background of the Problem** (200 Words, 10% weightage): Description of the problem.
+5. **Problem Solving Approach** (400 Words, 45% weightage): Details about methods used, data collection, and analysis tools, with justification.
+6. **Expected Timeline** (5% weightage): Expected timeline for completion of the project.
+7. **Expected Outcome** (5% weightage): Expected outcome of the project.
+
+Note that the total weightage of the expected contents is 100%. The proposal should be about 4-5 pages long, and it is evaluated for 100 marks, which is scaled down to 20.
+
+**Sources:**
+1. [Guidelines.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Guidelines.pdf), Page Number: 4"
+18,what should i write in problem solving approach,"For the Problem-Solving Approach section of your Business Data Management (BDM) project proposal, you should provide a detailed description of the methods, tools, and techniques you will use to solve the business problem identified in your proposal.
+
+Here's a suggested outline for the Problem-Solving Approach section:
+
+7. Problem Solving Approach (400 Words)
+
+7a. Details about the methods used with Justification
+
+* Describe the specific methods you will use to collect and analyze data, such as descriptive statistics, inferential statistics, data mining, machine learning, or other relevant methods.
+
+7b. Details about the intended data collection with Justification
+
+* Explain how you will collect data, including the sources, type of data, and data quality. Justify your choice of data collection methods, considering factors such as cost, feasibility, and relevance to the problem.
+
+7c. Details about the analysis tools with Justification
+
+* Discuss the specific tools and techniques you will use to analyze the data, such as Excel, SPSS, R, Python, or Tableau. Justify your choice of analysis tools, considering factors such as ease of use, data complexity, and output requirements.
+
+In this section, you should provide a clear and concise explanation of your problem-solving approach, including the methods, tools, and techniques you will use to address the business problem. Be sure to justify your choices and provide evidence to support your approach.
+
+**Sources:**
+1. [Guidelines.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Guidelines.pdf), Page Number: 4"
+19,what kind of business sectors can i use for this project?,"According to the provided resources, the Business Data Management (BDM) course themes can be applied to various business sectors. Here are some examples:
+
+* Healthcare: Studying patient data, hospital operations, or medical research can help address business problems related to resource allocation, patient outcomes, or disease spreading.
+* Retail: Analyzing sales data, customer behavior, or supply chain operations can help solve business problems such as inventory management, customer retention, or market trends.
+* Finance: Examining financial transactions, market data, or investment portfolios can help formulate business problems related to risk management, portfolio optimization, or market forecasting.
+* Transportation: Studying traffic patterns, logistics operations, or fleet management data can help address business problems such as route optimization, traffic congestion, or supply chain efficiency.
+* Energy: Analyzing energy consumption patterns, grid operations, or renewable energy data can help solve business problems such as energy efficiency, grid reliability, or renewable energy integration.
+* Education: Examining student data, course performance, or institutional operations can help formulate business problems related to student retention, course optimization, or resource allocation.
+* Manufacturing: Studying production schedules, supply chain operations, or quality control data can help address business problems such as production efficiency, quality control, or inventory management.
+
+These sectors are not exhaustive, and you can choose any sector that aligns with your interests and skills. The key is to select a sector that allows you to apply the concepts learned in the BDM course to a real-world business problem.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 31"
+20,what to include in the final report,"According to the provided context, a thorough understanding of a Business Data Management (BDM) project should include the following components in the final report:
+
+1. Thorough Understanding: Demonstrate a deep understanding of the project, including the business problem, data analysis techniques, findings, and recommendations.
+2. Primary Data Focus: Discuss the importance of used primary data and defend the data collection process.
+3. Justification of Choices: Explain and justify every decision made, including the selection of data, methods, and analytical tools.
+4. Analysis Methods used, Results, Findings, and Interpretation: Be prepared to present the methods used for analysis, the results obtained, the findings, and the interpretation of the results.
+5. Context for Interpretation and Recommendations from Results and References (IF any): Provide context for the interpretation of the results and recommendations, and include relevant references if necessary.
+6. Linking to BDM Theory: Connect the project and analysis to relevant concepts from the BDM theory course.
+7. Professional Selling Concepts: Consider how professional selling concepts were incorporated into the project, especially during data collection.
+
+By including these components, the final report should provide a comprehensive overview of the BDM project, showcasing the depth of understanding, technical expertise, and critical thinking skills demonstrated by the researcher.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 29"
+21,what are the various ways due to which my submission can be rejected,"Based on the provided context, the common reasons that can lead to rejection of a project proposal for a Business Data Management (BDM) project are not explicitly mentioned. However, I can provide some general insights on what might be considered as rejection criteria:
+
+1. Lack of clarity in problem definition or statement: If the proposal fails to clearly articulate the problem or issue faced by the organization, it might be rejected.
+2. Insufficient justification of problem-solving approach: If the proposed approach is not well-justified or lacks a clear understanding of the organization's needs, it may be rejected.
+3. Unrealistic timelines or milestones: If the proposal is overly ambitious or lacks a realistic timeline for project completion, it may be rejected.
+4. Insufficient consideration of organizational constraints: If the proposal does not take into account the organization's existing systems, resources, or constraints, it may be rejected.
+5. Lack of novelty or value in the proposed insights: If the proposed insights are not novel or do not provide significant value to the organization, the proposal may be rejected.
+6. Poor writing or presentation: If the proposal is poorly written, disorganized, or lacks clear headings, it may be rejected.
+7. Failure to provide clear expected outcomes or benefits: If the proposal does not clearly articulate the expected outcomes or benefits of the project, it may be rejected.
+
+Please note that these are general insights and may not be exhaustive or apply specifically to the context provided. The actual rejection criteria may vary depending on the specific requirements and expectations of the project.
+
+**Sources:**
+1. [Short write up BDM Capstone Project.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Short%20write%20up%20BDM%20Capstone%20Project.pdf), Page Number: 1"
+22,How do I discover a business problem?,"Discovering a business problem involves understanding the organization's goals, identifying pain points, and analyzing data to uncover areas that need improvement. Here's a step-by-step approach to help you discover a business problem:
+
+1. Conduct research: Gather information about the organization's mission, vision, values, and goals. Review reports, articles, and other documents to understand the company's current status and challenges.
+2. Talk to stakeholders: Interview employees, customers, and partners to gain insights into their experiences, concerns, and ideas. This will help you identify potential problems and opportunities.
+3. Analyze data: Review existing data, such as reports, metrics, and feedback, to identify trends, patterns, and anomalies. This will help you spot areas that need improvement.
+4. Look for inefficiencies: Identify processes, systems, or operations that are not working efficiently or effectively. Look for waste, duplication of effort, or unnecessary complexity.
+5. Identify customer pain points: Talk to customers and analyze feedback to identify areas where they are experiencing difficulties or dissatisfaction.
+6. Look for opportunities for growth: Identify areas where the organization can grow, expand, or innovate.
+7. Prioritize: Based on your research, analysis, and stakeholder feedback, prioritize the problems you've identified. Focus on the most critical and urgent issues that need to be addressed.
+
+Some potential business problems you might discover include:
+
+* Declining sales or revenue
+* Customer churn or dissatisfaction
+* Inefficient processes or systems
+* Difficulty in meeting regulatory requirements
+* Limited market share or market penetration
+* High employee turnover or absenteeism
+* Inadequate communication or collaboration
+* Limited access to resources or talent
+
+By following these steps, you can identify and prioritize business problems that affect the organization's success.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 36"
+23,How to start with the project,"According to the provided context, the first step in starting a project is to decide what you want to do in the project and understand the project and business. This step is referred to as the ""Primary Step: Aim of your project"".
+
+Here's a breakdown of the step:
+
+1. Decide what you want to do in the project: Take your time to understand about the project and business, and then aim it.
+2. Think about the problem statements: What is the practical or scientific issue that you want to address and why does it matter?
+3. Formulate one or more problem statement questions that precisely define what you want to find out.
+
+By following these steps, you'll be able to clarify your goals and objectives, identify the problem you want to address, and start building a solid foundation for your project.
+
+**Sources:**
+1. [Data_Collection_Details.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Data_Collection_Details.pdf), Page Number: 2"
+24,how to do bdm project in iit madras,"Based on the provided context, here's a step-by-step guide on how to do a BDM (Business Development and Management) project in IIT Madras:
+
+**Step 1: Repeat steps until you get your data**
+
+* Repeat the process of collecting data until you get the required dataset
+* If you find that you've invested too much time and still failed to get the data, consider switching to a project with primary data
+
+**Step 2: Basic EDA and conversation with the business**
+
+* Perform a basic Exploratory Data Analysis (EDA) on the dataset to observe and get more detail into the problems
+* Have another conversation with the business to confirm the identified problem statements
+
+**Stage 2: Proposal**
+
+* Follow the formatting guidelines:
+	+ Font: Times New Roman, 12pt
+	+ Spacing: 1.5
+	+ Alignment: Justified
+* Make sure to include the disclaimer ""it is IIT Madras BS program - academic project - The BDM Capstone Project"" in the proposal
+
+Note that these steps are based on the provided context and may vary depending on the specific requirements of your project.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 4"
+25,how to submit bdm,"According to the provided context, the Business Data Management (BDM) Capstone Project is an independent research project that involves four stages of submissions:
+
+1. Proposal stage: Students submit a 4-5 page write-up that includes information about the organization, problem definition, problem-solving approach, expected timelines, and probable outcomes. This stage carries 20% weightage.
+
+2. Midterm submission: Students submit an 8-10 page write-up that includes a short video interaction clip with the business owner/manager, tangible evidence, meta data and descriptive statistics, preliminary analysis, and interpretation of results and findings. This stage also carries 20% weightage.
+
+3. Final report submission: Students submit a complete report that is 18-20 pages long, providing an in-depth explanation of the entire process from start to finish. This component carries 40% weightage.
+
+4. Viva voce: Students make a presentation not exceeding 10 slides, which carries 20% weightage.
+
+It is essential to note that students are provided with detailed rubrics that explain every component of the submission for each stage.
+
+**Sources:**
+1. [Short write up BDM Capstone Project.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Short%20write%20up%20BDM%20Capstone%20Project.pdf), Page Number: 1"
+26,how to collect data,"According to the context provided, to collect data for your project, you need to:
+
+1. Prepare field notes describing the meeting between you and the business, including the people involved and what was discussed.
+2. Understand the business (type of business, B2B, B2C, or both), the nature of problems the businesses encounter, and how they solve those problems.
+3. Identify the problems and narrow down the problem you want to focus on.
+4. Collect data through meetings and discussions with the business, and take tangible evidence such as organization charts or physical evidence to support your data.
+5. Determine the time period of data collection (days, months, or years).
+6. Collect data from primary sources, not from online sources like Kaggle or GitHub.
+
+Remember to clearly explain the process of data collection, including the number of meetings, what was discussed, and how you collected the data.
+
+**Sources:**
+1. [BDM Capstone Project Rubrics- Analysis with Primary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project%20Rubrics-%20Analysis%20with%20Primary%20Data.pdf), Page Number: 1"
+27,"if i plan to do the project on primary data, what should be the procedure?","According to the BDM Capstone Project instructions, the procedure for conducting a project that focuses on primary data involves the following steps:
+
+1. Collect data pertaining to a business problem from a business in the organized or unorganized sector. Ensure that only primary data is collected and do not collect data from online sources like Kaggle, GitHub, etc.
+
+2. Clearly explain the process of data collection:
+   a. Prepare field notes describing the meeting between the student and the business, including the people involved, and mention the number of meetings conducted and what was discussed.
+   b. Gain an understanding of the business (B2B, B2C, or both) and the nature of problems it encounters.
+   c. Identify how the business solves the problems it encounters, whether these problems are recurring or one-time.
+   d. Describe how the student narrowed down the problem.
+   e. Explain how the data was collected, including the time period of data collection (days, months, years, etc.).
+   f. Provide tangible evidence, such as people, processes (organization chart), or physical evidence.
+
+3. Describe the various variables collected during data collection, including their importance and relevance.
+
+4. Briefly describe the data cleaning process and how it was done.
+
+5. Analyze the data, using case studies taught in the BDM course as cues, and mention the rationale for the analysis. Encourage exploration of newer ways of conducting analysis by reviewing newspapers, journals, reference books, and learnings from other courses.
+
+6. Provide insights from the analysis conducted, including:
+   a. What businesses should do (continue doing and start doing).
+   b. What businesses should avoid.
+   c. How the solutions address the business problems.
+
+**Sources:**
+1. [BDM Capstone Project Rubrics- Analysis with Primary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project%20Rubrics-%20Analysis%20with%20Primary%20Data.pdf), Page Number: 1"
+28,What is the purpose of BDM project,"The purpose of the Business Data Management (BDM) Capstone Project is to provide students with a hands-on experience in dealing with real-world problems and providing solutions. The project aims to help students apply the concepts and theories learned in the BDM course to a real-world business scenario.
+
+**Sources:**
+1. [Short write up BDM Capstone Project.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Short%20write%20up%20BDM%20Capstone%20Project.pdf), Page Number: 1"
+29,Can two students jointly do this project?,"The document does not explicitly state whether two students can jointly do the project or not. However, point 3 mentions that ""This is an independent research project. ..."", which suggests that the project is intended to be completed individually. Therefore, it is likely that the project is not intended to be done jointly by two students.
+
+**Sources:**
+1. [current_doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/current_doc.pdf), Page Number: 13"
+30,Who can guide me while I do this project?,"Based on the provided context, it seems that Dr. Aaditya Chandel and Dr. Ashwin Baliga have jointly prepared this document, which suggests that they may be the guides or mentors for the BDM Capstone project. You can reach out to them for guidance on your project.
+
+**Sources:**
+1. [BDM Capstone Project- Analysis with Secondary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project-%20Analysis%20with%20Secondary%20Data.pdf), Page Number: 3"
+31,What is the criteria for the Proposal to get accepted?,"Based on the provided context, the criteria for the proposal to get accepted are:
+
+1. The proposal includes a declaration statement.
+2. The report discusses business problems.
+3. Plagiarism is less than 20%.
+4. The proposal is 4-5 pages long.
+5. All sections of the proposal are included.
+
+If the proposal meets these criteria, it will receive an ""Accept"" with detailed comments.
+
+**Sources:**
+1. [BDM Capstone Project- Analysis with Secondary Data.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/BDM%20Capstone%20Project-%20Analysis%20with%20Secondary%20Data.pdf), Page Number: 2"
+32,"When I ask the business for data, they are reluctant to share. What need to be done in this situation?","According to the provided report and checklist, when a business is reluctant to share data for your project, you should:
+
+1. Do not directly ask for data. They might find it like an attack on their business secrets.
+2. Instead, use a ""Business 1st approach"". Understand their working and gaps in their business and try to identify problems through the conversation.
+3. Always use a Polite and Professional tone.
+
+Additionally, you should think on the problem, guess the potential dataset required to solve these problems, and then ask for the dataset. The approach should be on ""solving the problem"" through dataset analysis, not just asking for the dataset.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 3"
+33,"Are we supposed to add the dataset, which is being used, in any of the reports?","Yes, according to the provided context, you are supposed to provide the complete details of the repository from where the secondary data was collected under sub-heading 5.2. This includes explaining why you chose this specific secondary dataset and clearly connecting the dataset to the problem statement and objectives.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 37"
+34,"Could you kindly differentiate between the content of the Proposal, the Mid-Term, and the Final report?","Based on the additional considerations provided, here's a general outline of what each report should contain:
+
+**Proposal:**
+
+* Introduce the project idea and objectives
+* Provide a brief overview of the research question, methodology, and expected outcomes
+* Outline the scope and timeline of the project
+* Include a rough outline of the expected results and findings
+
+**Mid-Term Report:**
+
+* Builds upon the proposal, showcasing progress in data collection and analysis
+* Refines the executive summary, results, and findings from the proposal
+* Showcases the progress made in data collection and analysis
+* May include preliminary results, observations, and conclusions
+
+**Final Report:**
+
+* A comprehensive report that incorporates the findings from the midterm report
+* Includes a detailed executive summary, results, and findings
+* Provides a thorough analysis and interpretation of the data
+* Draws conclusions and makes recommendations based on the findings
+* Includes a clear and concise summary of the project's objectives, scope, and timeline
+
+Keep in mind that these are general guidelines, and the specific requirements may vary depending on the project, instructor, or rubric.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 18"
+35,what is primary data and secondary data,"According to the given context, primary data are ""data that were originally recorded or 'left behind' or collected at an earlier time by someone other than the current researcher, often for an entirely different purpose from the current research purpose"" (Johnson & Turner, 2003, p. 314). In other words, primary data are data that are collected by the researcher themselves, specifically for the purpose of the current research.
+
+Secondary data, on the other hand, are data that were originally recorded or collected by someone else, often for a different purpose, and are being used by a researcher for their own research purposes.
+
+**Sources:**
+1. [Venkatesh_mixedmethods2023_final.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Venkatesh_mixedmethods2023_final.pdf), Page Number: 128"
+36,Is viva mandatory for BDM Project?,"According to the document, yes, the viva voce examination is mandatory for the BDM project. It is stated that ""Once the student receives an “Accept” for the proposal and final submission, they will be eligible for the viva voce examination.""
+
+**Sources:**
+1. [current_doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/current_doc.pdf), Page Number: 13"
+37,what is the minimum number for slides needed for viva?,"According to the provided resources, the minimum number of slides recommended for a viva presentation is 10 slides, all-inclusive.
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 26"
+38,What is WBS ?,"Based on the provided context, WBS stands for Work Breakdown Structure.
+
+**Sources:**
+1. [Proposal format_1.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Proposal%20format_1.pdf), Page Number: 8"
+39,Can I take a hint of the proposal from my friend who has completed the BDM project last term?,"No, it's not recommended to use a proposal from a friend who has completed the BDM project last term as a hint or reference.
+
+**Sources:**
+1. [current_doc.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/current_doc.pdf), Page Number: 8"
+40,hi,"Hello. Is there something I can help you with or would you like to ask a question?
+
+**Sources:**
+1. [Master.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Master.pdf), Page Number: 37"
+41,hi who are you,"I am an artificial intelligence language model, and my role in this conversation is to assist and provide information based on the provided context. I will answer your questions to the best of my knowledge and abilities, and if I don't know the answer to a question, I will say so.
+
+**Sources:**
+1. [Design, Implement and Analyzing Survey.pdf](https://github.com/brpuneet898/bdm-project-flask/blob/main/documents/Design,%20Implement%20and%20Analyzing%20Survey.pdf), Page Number: 68"
+42,What is the email id of Ashwin sir,"The email ID of Ashwin sir is ashwin@study.iitm.ac.in.
+
+**Sources:**
+1. [topic-answer - Copy.csv](http://localhost:5000/documents/topic-answer%20-%20Copy.csv), Page Number: 1"
+43,what is bdm project actually,"A Business Data Management (BDM) project is an independent research project where a student reaches out to a business firm, identifies the issues or problems they face, collects primary data, cleans and analyzes the data, and provides novel and valuable insights to the decision-makers. The project is designed to give students hands-on experience in dealing with real-world problems and providing solutions, and it has four stages of submissions: proposal, midterm, final report, and viva voce. The project requires students to apply the knowledge gained from the BDM theory course to a real-world business problem, and to report their findings in a professional manner.
+
+**Sources:**
+1. [Short write up BDM Capstone Project.pdf](http://localhost:5000/documents/Short%20write%20up%20BDM%20Capstone%20Project.pdf), Page Number: 1"
