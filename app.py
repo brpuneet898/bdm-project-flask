@@ -12,6 +12,7 @@ from urllib.parse import quote
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 import io
+from flask_caching import Cache
 
 import requests
 
@@ -19,6 +20,7 @@ os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
+cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 init_db()
 
 login_manager = LoginManager(app)
@@ -145,12 +147,16 @@ def serve_pdf(filename):
             as_attachment=True
         )
 
-
 @app.route("/chat", methods=["POST"])
 def chat():
     user_input = request.json.get("message", "")
     if user_input.lower() == "stop":
         return jsonify({"response": "Exiting chat...", "stop": True})
+    
+    cache_key = f"chat_response_{user_input}"
+    cached_response = cache.get(cache_key)
+    if cached_response:
+        return jsonify({"response": cached_response, "stop": False})
 
     limited_chat_history_tuples = chat_history[-int(request.args.get('history', '5')):]
 
@@ -185,6 +191,7 @@ def chat():
         )
     answer_with_sources = f"{answer}\n\n**Sources:**\n" + "\n".join(source_info)
     insert_chat(user_input, answer_with_sources)
+    cache.set(cache_key, answer_with_sources, timeout=300)
     return jsonify({"response": answer_with_sources, "stop": False})
 
 

@@ -13,3 +13,4 @@ pypdf==5.1.0
 pandas
 Flask-Dance[google]
 Flask-Login
+Flask-Caching
