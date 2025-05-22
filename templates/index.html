@@ -2,36 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Alshwin</title>
     <link rel="stylesheet" href="/static/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.6/marked.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.4.0/purify.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
   </head>
   <body>    
     <div class="container">
       <div class="auth-container">
         <p>Welcome, {{ user_name }}!</p>
         <a href="{{ url_for('logout') }}">Logout</a>
-      </div>
-
-      <div id="alert-box" class="alert-box">
-        <div class="alert-content">
-          <span class="close-btn" onclick="closeAlert()">&times;</span>
-          <h2>Welcome to Alshwin</h2>
-          <p>Your personalized AI-Driven Bot to help you with your BDM Project Queries. Example prompts:</p>
-          <ul>
-            <li>What are the rubrics to submit project proposal for BDM Project?</li>
-            <li>How to formulate the title for my BDM Project?</li>
-            <li>What are the rubrics for submitting the final submission for my BDM project?</li>
-            <li>What do we have to submit in the metadata and descriptive statistics?</li>
-            <li>What is Metadata in Mid Term Submission?</li>
-          </ul>
-          <button onclick="closeAlert()">Let's Dive In</button>
-        </div>
       </div>
 
       <h1>Alshwin</h1>
@@ -49,10 +32,36 @@
       </div>
     </div>
 
+    <div id="alert-box" class="alert-box">
+      <div class="alert-content">
+        <span class="close-btn" onclick="closeAlert()">&times;</span>
+        <h2>Welcome to Alshwin</h2>
+        <p>Your personalized AI-Driven Bot to help you with your BDM Project Queries. Example prompts:</p>
+        <ul>
+          <li>What are the rubrics to submit project proposal for BDM Project?</li>
+          <li>How to formulate the title for my BDM Project?</li>
+          <li>What are the rubrics for submitting the final submission for my BDM project?</li>
+          <li>What do we have to submit in the metadata and descriptive statistics?</li>
+          <li>What is Metadata in Mid Term Submission?</li>
+        </ul>
+        <button onclick="closeAlert()">Let's Dive In</button>
+      </div>
+    </div>
+
     <script>
       const chatBox = document.getElementById("chat-box");
       const userInput = document.getElementById("user-input");
       const sendBtn = document.getElementById("send-btn");
+
+      // Add a welcome message when the page loads
+      window.onload = function() {
+        setTimeout(function() {
+          const welcomeMessage = "Hi! I'm Alshwin, your BDM Project assistant. How can I help you today?";
+          const renderedMessage = DOMPurify.sanitize(marked.parse(welcomeMessage));
+          chatBox.innerHTML += `<div class="message bot">${renderedMessage}</div>`;
+          chatBox.scrollTop = chatBox.scrollHeight;
+        }, 500);
+      };
 
       function closeAlert() {
         document.getElementById('alert-box').style.display = 'none';
@@ -61,8 +70,27 @@
       function sendMessage() {
         const message = userInput.value.trim();
         if (!message) return;
+        
+        // Clear any floating elements before adding new message
+        chatBox.innerHTML += `<div style="clear: both;"></div>`;
         chatBox.innerHTML += `<div class="message user">${message}</div>`;
         userInput.value = "";
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        // Show loading indicator
+        const loadingId = 'loading-' + Date.now();
+        chatBox.innerHTML += `<div id="${loadingId}" class="message bot">Typing<span class="loading-dots">...</span></div>`;
+        
+        let dotCount = 3;
+        const loadingInterval = setInterval(() => {
+          const loadingElement = document.getElementById(loadingId);
+          if (loadingElement) {
+            dotCount = (dotCount % 3) + 1;
+            loadingElement.querySelector('.loading-dots').textContent = '.'.repeat(dotCount);
+          } else {
+            clearInterval(loadingInterval);
+          }
+        }, 500);
 
         fetch("/chat", {
           method: "POST",
@@ -71,24 +99,67 @@
         })
           .then((response) => response.json())
           .then((data) => {
+            // Remove loading indicator
+            clearInterval(loadingInterval);
+            const loadingElement = document.getElementById(loadingId);
+            if (loadingElement) {
+              loadingElement.remove();
+            }
+
             const botMessage = data.response;
             const renderedMessage = DOMPurify.sanitize(marked.parse(botMessage));
+            
+            // Clear any floating elements before adding new message
+            chatBox.innerHTML += `<div style="clear: both;"></div>`;
             chatBox.innerHTML += `<div class="message bot">${renderedMessage}</div>`;
+            
             if (data.stop) {
+              chatBox.innerHTML += `<div style="clear: both;"></div>`;
               chatBox.innerHTML += `<div class="message bot">Chat ended.</div>`;
               userInput.disabled = true;
               sendBtn.disabled = true;
             }
             chatBox.scrollTop = chatBox.scrollHeight;
           })
-          .catch((error) => console.error("Error:", error));
+          .catch((error) => {
+            // Remove loading indicator
+            clearInterval(loadingInterval);
+            const loadingElement = document.getElementById(loadingId);
+            if (loadingElement) {
+              loadingElement.remove();
+            }
+            
+            console.error("Error:", error);
+            chatBox.innerHTML += `<div style="clear: both;"></div>`;
+            chatBox.innerHTML += `<div class="message bot">Sorry, there was an error processing your request. Please try again later.</div>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+          });
       }
+
       sendBtn.addEventListener("click", sendMessage);
       userInput.addEventListener("keypress", (event) => {
         if (event.key === "Enter") {
           sendMessage();
         }
       });
+
+      // Fix for iOS viewport height issues
+      function fixIOSViewportHeight() {
+        const vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
+
+      window.addEventListener('resize', fixIOSViewportHeight);
+      window.addEventListener('orientationchange', fixIOSViewportHeight);
+      fixIOSViewportHeight();
     </script>
+
+    <style>
+      /* Add loading animation styling */
+      .loading-dots {
+        display: inline-block;
+        min-width: 12px;
+      }
+    </style>
   </body>
 </html>

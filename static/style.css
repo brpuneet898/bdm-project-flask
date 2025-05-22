@@ -1,23 +1,23 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   background-color: #f4f4f9;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .auth-container {
-  width: 1100px;
+  width: auto; /* Changed from 100% */
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+  padding: 0 0 10px 0; /* Removed top padding, only keep bottom padding */
   text-align: right;
   font-family: "Roboto", sans-serif;
-  font-size: large;
+  font-size: 16px;
+  /* Position it properly inside the container */
+  margin-right: 5px;
 }
 
 .auth-container p {
@@ -37,30 +37,33 @@ body {
 }
 
 .container {
-  width: 1100px;
-  height: 650px;
+  width: 100%;
+  max-width: 1100px;
+  height: 100vh;
+  max-height: 650px;
   background: #fff;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px 15px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 h1 {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   text-align: left;
   font-family: "Roboto", sans-serif;
-  font-size: x-large;
+  font-size: 1.5rem;
   color: #164e63;
 }
 
 #chat-box {
-  height: 450px;
+  flex: 1;
   overflow-y: auto;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 10px;
@@ -70,6 +73,9 @@ h1 {
 .message {
   margin: 5px 0;
   text-align: left;
+  clear: both;
+  width: 100%;
+  overflow: hidden;
 }
 
 .message.user {
@@ -81,7 +87,10 @@ h1 {
   margin-bottom: 10px;
   float: right;
   font-family: "Roboto", sans-serif;
-  font-size: large;
+  font-size: 16px;
+  max-width: 80%;
+  /* display: inline-block; */
+  width: auto;
 }
 
 .message.bot {
@@ -89,56 +98,39 @@ h1 {
   color: #0e7490;
   background-color: #ecfeff;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 10px;
   font-family: "Roboto", sans-serif;
-  font-size: large;
-  max-width: 66%;
+  font-size: 16px;
+  max-width: 80%;
+  float: left;
+  clear: both;
 }
-
-/* #user-input {
-  width: calc(100% - 50px);
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-#send-btn {
-  padding: 10px 20px;
-  margin-top: 5px;
-  background: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#send-btn:hover {
-  background: #0056b3;
-} */
 
 .input-container {
   position: absolute;
-  width: 1100px;
+  bottom: 10px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
 }
 
 #user-input {
-  width: 1050px;
-  padding: 10px 10px 10px 10px;
+  flex: 1;
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
-  font-size: large;
+  font-size: 16px;
 }
 
 #send-btn {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
   background: none;
   border: none;
   cursor: pointer;
+  margin-left: 10px;
+  padding: 5px;
 }
 
 #send-btn i {
@@ -169,23 +161,27 @@ h1 {
   padding: 20px;
   border-radius: 8px;
   text-align: center;
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .alert-content h2 {
   margin-top: 0;
   color: #164e63;
+  font-size: 1.3rem;
 }
 
 .alert-content p {
   color: #164e63;
+  font-size: 0.9rem;
 }
 
 .alert-content ul {
   text-align: left;
   padding-left: 20px;
   color: #164e63;
+  font-size: 0.9rem;
 }
 
 .alert-content button {
@@ -195,6 +191,7 @@ h1 {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .alert-content button:hover {
@@ -212,4 +209,70 @@ h1 {
 
 .close-btn:hover {
   color: #0e7490;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+    max-height: none;
+    border-radius: 0;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .message.user, .message.bot {
+    font-size: 14px;
+    max-width: 85%;
+  }
+  
+  .auth-container {
+    font-size: 14px;
+  }
+  
+  #chat-box {
+    margin-bottom: 50px;
+  }
+  
+  .input-container {
+    bottom: 5px;
+    left: 10px;
+    right: 10px;
+  }
+  
+  #user-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .message.user, .message.bot {
+    max-width: 90%;
+    font-size: 13px;
+  }
+  
+  .alert-content {
+    padding: 15px;
+  }
+  
+  .alert-content h2 {
+    font-size: 1.1rem;
+  }
+  
+  .alert-content p, .alert-content ul, .alert-content button {
+    font-size: 0.8rem;
+  }
+}
+
+/* Fix for iOS viewport height issues */
+@supports (-webkit-touch-callout: none) {
+  body, .container {
+    min-height: -webkit-fill-available;
+  }
 }
